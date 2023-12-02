@@ -5,9 +5,10 @@ run :
 	./exe
 
 clean :
-	rm *.o
 	rm exe
 	clear
 
+debug:
+	g++ -g -o exe *.cpp
 zip :
 	zip exe *.cpp *.hpp Makefile
