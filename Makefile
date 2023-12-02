@@ -11,4 +11,4 @@ clean :
 debug:
 	g++ -g -o exe *.cpp
 zip :
-	zip exe *.cpp *.hpp Makefile
+	zip *.cpp *.hpp Makefile
